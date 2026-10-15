@@ -17,8 +17,11 @@ def run_windows_audit():
     print(f"Python Version: {platform.python_version()}")
     print(f"Detected OS Release: {platform.release()}")
 
+    # 2. Get Desktop directory path dynamically
+    desktop_path = Path.home() / "Desktop"
+    print(f"Desktop Path: {desktop_path}")
+
+
 # Run statement to check if the script is being run directly    
 if __name__ == "__main__":
     run_windows_audit()
-    #linux
-    #windows
