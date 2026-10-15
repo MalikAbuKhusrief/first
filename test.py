@@ -21,4 +21,4 @@ def run_windows_audit():
 if __name__ == "__main__":
     run_windows_audit()
     #linux
-    
+    #windows
