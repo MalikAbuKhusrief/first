@@ -20,4 +20,5 @@ def run_windows_audit():
 # Run statement to check if the script is being run directly    
 if __name__ == "__main__":
     run_windows_audit()
-t6t
+    #linux
+    
